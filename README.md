@@ -16,12 +16,13 @@ And I will add some more advance scenarios demos .such as:
 
 
 ##English Resources
-[stephencleary](http://blog.stephencleary.com/)  
-[Stephen Toub - MSFT]  (http://blogs.msdn.com/b/pfxteam/)
-[Eric Lippert](http://blogs.msdn.com/b/ericlippert/archive/2011/10/03/async-articles.aspx)
+[stephencleary](http://blog.stephencleary.com/)    
+[Stephen Toub - MSFT]  (http://blogs.msdn.com/b/pfxteam/)   
+[Eric Lippert](http://blogs.msdn.com/b/ericlippert/archive/2011/10/03/async-articles.aspx)  
 
 ###Vieos
 [The zen of async: Best practices for best performance](https://channel9.msdn.com/Events/BUILD/BUILD2011/TOOL-829T)
+
 
 
 
