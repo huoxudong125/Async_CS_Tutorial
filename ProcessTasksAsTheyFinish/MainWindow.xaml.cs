@@ -124,12 +124,7 @@ namespace ProcessTasksAsTheyFinish
             return urlContents.Length;
         }
 
-        private async Task LoadUrlContent(string url, HttpClient client, CancellationToken ct)
-        {
-            // GetAsync returns a Task<HttpResponseMessage>. 
-            HttpResponseMessage response = await client.GetAsync(url, ct);
-             
-        }
+  
     }
 }
 

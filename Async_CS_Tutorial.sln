@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelATask", "CancelATask\CancelATask.csproj", "{9E749B36-C270-44AA-813E-6A4E96A60C68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelAListOfTasks", "CancelAListOfTasks\CancelAListOfTasks.csproj", "{58E5CE0B-4AA6-4CC5-B8A9-71811B9FD028}"
