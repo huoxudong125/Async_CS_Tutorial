@@ -11,7 +11,7 @@ And I will add some more advance scenarios demos .such as:
 
 ##ScreenSanps
 Redundancy using Task.WhenAny() function：
-Here is show all task's status,after one best task has [RanToCompleted]
+Here is show all task's status,after one best task has [RanToCompleted]   
 ![WhenAny_Redundancy_ScreenSnap](/WhenAny_Redundancy/WhenAny_Redundancy.png)  
 
 
