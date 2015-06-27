@@ -21,7 +21,7 @@ Here is show all task's status,after one best task has [RanToCompleted]
 
 
 ##English Resources
-[stephencleary](http://blog.stephencleary.com/)    
+[Stephen Cleary](http://blog.stephencleary.com/)    
 [Stephen Toub - MSFT]  (http://blogs.msdn.com/b/pfxteam/)   
 [Eric Lippert](http://blogs.msdn.com/b/ericlippert/archive/2011/10/03/async-articles.aspx)  
 
