@@ -9,6 +9,11 @@ And I will add some more advance scenarios demos .such as:
 -ForeachAsync  
 -Synchronous Call Asynchronous Method  
 
+##ScreenSanps
+Redundancy using Task.WhenAny() function：
+Here is show all task's status,after one best task has [RanToCompleted]
+![WhenAny_Redundancy_ScreenSnap](/WhenAny_Redundancy/WhenAny_Redundancy.png)  
+
 
 ##Chinese Resources
 [异步编程模式](https://msdn.microsoft.com/zh-cn/library/jj152938(v=vs.110).aspx) 或者在这里[下载](http://wenku.baidu.com/view/a2a624c2c850ad02de80418a)
