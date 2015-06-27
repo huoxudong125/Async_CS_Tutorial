@@ -15,8 +15,7 @@ Here is show all task's status,after one best task has [RanToCompleted]
 ![WhenAny_Redundancy_ScreenSnap](/WhenAny_Redundancy/WhenAny_Redundancy.png)  
 
 
-##Chinese Resources
-[异步编程模式](https://msdn.microsoft.com/zh-cn/library/jj152938(v=vs.110).aspx) 或者在这里[下载](http://wenku.baidu.com/view/a2a624c2c850ad02de80418a)
+
 
 
 
@@ -28,6 +27,10 @@ Here is show all task's status,after one best task has [RanToCompleted]
 ###Vieos
 [The zen of async: Best practices for best performance](https://channel9.msdn.com/Events/BUILD/BUILD2011/TOOL-829T)
 
+---
+##中文资源文件
+[异步编程模式](https://msdn.microsoft.com/zh-cn/library/jj152938(v=vs.110).aspx) 或者在这里[下载](http://wenku.baidu.com/view/a2a624c2c850ad02de80418a)
 
 
-
+##联系反馈(Contact)
+Email: 423huo#163.com(replace # with @)  
