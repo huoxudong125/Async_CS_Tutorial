@@ -1,12 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace AsyncLibraryDemo
 {
     public class WebAsyncUtility
     {
-        public static readonly string FirstDemoUrl="http://msdn.microsoft.com/en-us/library/dd470362.aspx";
+        public static readonly string FirstDemoUrl = "http://msdn.microsoft.com/en-us/library/dd470362.aspx";
+
+        //
         public static async Task<int> AccessTheWebAsync(string url)
         {
             HttpClient client = new HttpClient();
@@ -26,11 +30,34 @@ namespace AsyncLibraryDemo
             return urlContents.Length;
         }
 
+        public static async Task<int> AccessTheWebAsync(string url, CancellationToken ct)
+        {
+            HttpClient client = new HttpClient();
+
+            var ran = new Random();
+
+            // You might need to slow things down to have a chance to cancel.
+            await Task.Delay((int)(ran.NextDouble() * 10000));
+
+            // GetAsync returns a Task<HttpResponseMessage>.
+            // ***The ct argument carries the message if the Cancel button is chosen.
+            HttpResponseMessage response = await client.GetAsync(url, ct);
+
+            // Retrieve the website contents from the HttpResponseMessage.
+            byte[] urlContents = await response.Content.ReadAsByteArrayAsync();
+
+            // You might need to slow things down to have a chance to cancel.
+            await Task.Delay((int)(ran.NextDouble() * 10000));
+
+            // The result of the method is the length of the downloaded web site.
+            return urlContents.Length;
+        }
+
         // ***Add a method that creates a list of web addresses.
         public static List<string> SetUpURLList()
         {
-            List<string> urls = new List<string> 
-            { 
+            List<string> urls = new List<string>
+            {
                 "http://msdn.microsoft.com",
                 "http://msdn.microsoft.com/en-us/library/hh290138.aspx",
                 "http://msdn.microsoft.com/en-us/library/hh290140.aspx",
@@ -41,6 +68,5 @@ namespace AsyncLibraryDemo
             };
             return urls;
         }
-
     }
 }
