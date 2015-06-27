@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessTasksAsTheyFinish", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterCode", "StarterCode\StarterCode.csproj", "{32876BA4-531C-4E4C-91DF-64407B34A6BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhenAny_EarlyBailout", "WhenAny_EarlyBailout\WhenAny_EarlyBailout.csproj", "{2C3B02B8-F814-4D50-BB0E-40BDF98817A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{32876BA4-531C-4E4C-91DF-64407B34A6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32876BA4-531C-4E4C-91DF-64407B34A6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32876BA4-531C-4E4C-91DF-64407B34A6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3B02B8-F814-4D50-BB0E-40BDF98817A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3B02B8-F814-4D50-BB0E-40BDF98817A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3B02B8-F814-4D50-BB0E-40BDF98817A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3B02B8-F814-4D50-BB0E-40BDF98817A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
