@@ -11,7 +11,7 @@ namespace AsyncLibraryDemo
         public static readonly string FirstDemoUrl = "http://msdn.microsoft.com/en-us/library/dd470362.aspx";
 
         //
-        public static async Task<int> AccessTheWebAsync(string url)
+        public static async Task<int> AccessTheWebContentLengthAsync(string url)
         {
             HttpClient client = new HttpClient();
 
@@ -30,7 +30,7 @@ namespace AsyncLibraryDemo
             return urlContents.Length;
         }
 
-        public static async Task<int> AccessTheWebAsync(string url, CancellationToken ct)
+        public static async Task<int> AccessTheWebContentLengthAsync(string url, CancellationToken ct)
         {
             HttpClient client = new HttpClient();
 
@@ -51,6 +51,21 @@ namespace AsyncLibraryDemo
 
             // The result of the method is the length of the downloaded web site.
             return urlContents.Length;
+        }
+
+
+        public static async Task<Byte[]> AccessTheImageContent(string imageUrl, CancellationToken ct)
+        {
+            HttpClient client = new HttpClient();
+
+            // GetAsync returns a Task<HttpResponseMessage>.
+            // ***The ct argument carries the message if the Cancel button is chosen.
+            HttpResponseMessage response = await client.GetAsync(imageUrl, ct);
+
+            // Retrieve the website contents from the HttpResponseMessage.
+            byte[] urlContents = await response.Content.ReadAsByteArrayAsync();
+
+            return urlContents;
         }
 
         // ***Add a method that creates a list of web addresses.

@@ -73,7 +73,7 @@ namespace WhenAny_Redundancy
         {
             var tempUrl = string.IsNullOrEmpty(url) ? "http://msdn.microsoft.com/en-us/library/hh290138.aspx" : url;
 
-            var result = await WebAsyncUtility.AccessTheWebAsync(tempUrl, ct);
+            var result = await WebAsyncUtility.AccessTheWebContentLengthAsync(tempUrl, ct);
 
             return new Tuple<string, bool>(tempUrl, result > 0);
         }

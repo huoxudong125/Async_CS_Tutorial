@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhenAny_Redundancy", "WhenA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncLibraryDemo", "AsyncLibraryDemo\AsyncLibraryDemo.csproj", "{203E0E24-FBEB-46A9-B37A-25BA2579C139}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhenAny_Interleaving", "WhenAny_Interleaving\WhenAny_Interleaving.csproj", "{E55EE4E8-C571-42B3-8420-8DE3CFA5345B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{203E0E24-FBEB-46A9-B37A-25BA2579C139}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{203E0E24-FBEB-46A9-B37A-25BA2579C139}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{203E0E24-FBEB-46A9-B37A-25BA2579C139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55EE4E8-C571-42B3-8420-8DE3CFA5345B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55EE4E8-C571-42B3-8420-8DE3CFA5345B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55EE4E8-C571-42B3-8420-8DE3CFA5345B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55EE4E8-C571-42B3-8420-8DE3CFA5345B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
