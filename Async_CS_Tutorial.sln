@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncLibraryDemo", "AsyncLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhenAny_Interleaving", "WhenAny_Interleaving\WhenAny_Interleaving.csproj", "{E55EE4E8-C571-42B3-8420-8DE3CFA5345B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhenAny_Throttling", "WhenAny_Throttling\WhenAny_Throttling.csproj", "{2BDB0436-1B7B-41D3-BBBA-037C33C8A55F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{E55EE4E8-C571-42B3-8420-8DE3CFA5345B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E55EE4E8-C571-42B3-8420-8DE3CFA5345B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E55EE4E8-C571-42B3-8420-8DE3CFA5345B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDB0436-1B7B-41D3-BBBA-037C33C8A55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDB0436-1B7B-41D3-BBBA-037C33C8A55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDB0436-1B7B-41D3-BBBA-037C33C8A55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDB0436-1B7B-41D3-BBBA-037C33C8A55F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
