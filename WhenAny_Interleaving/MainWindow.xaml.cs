@@ -50,6 +50,7 @@ namespace WhenAny_Interleaving
             {
                 try
                 {
+                    
                     Task<BitmapImage> imageTask = await Task.WhenAny(imageTasks);
                     imageTasks.Remove(imageTask);
 

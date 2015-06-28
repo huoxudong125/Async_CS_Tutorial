@@ -7,6 +7,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="182*" />
@@ -18,11 +19,11 @@
         <Button Grid.Row="0" Grid.Column="1" x:Name="cancelButton" Content="Cancel"
                 Margin="93.551,10,41,0" VerticalAlignment="Top" RenderTransformOrigin="0.187,-0.3"
                 FontWeight="Bold"  Height="40" FontSize="14"  Opacity="0.8" Click="cancelButton_Click" />
-        <TextBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="resultsTextBox" HorizontalAlignment="Stretch"
-                 Height="200" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Margin="3"
+        <TextBox Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" x:Name="resultsTextBox" HorizontalAlignment="Stretch"
+                   TextWrapping="Wrap" SpellCheck.IsEnabled="True" Margin="3"
                  FontFamily="Lucida Console"  VerticalScrollBarVisibility="Visible"
                  Background="#FFF9EEEC" />
-        <GridSplitter Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Height="4" VerticalAlignment="Bottom"/>
+        <GridSplitter Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Height="3" HorizontalAlignment="Stretch" Background="Azure" />
         <ScrollViewer Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" VerticalScrollBarVisibility="Auto" Margin="3">
             <StackPanel Background="Black"  x:Name="panel"  />
         </ScrollViewer>
