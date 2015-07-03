@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhenAny_Interleaving", "Whe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhenAny_Throttling", "WhenAny_Throttling\WhenAny_Throttling.csproj", "{2BDB0436-1B7B-41D3-BBBA-037C33C8A55F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCNotify", "GCNotify\GCNotify.csproj", "{2B70170B-C6E5-44EF-AA2A-A901C58A9459}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{2BDB0436-1B7B-41D3-BBBA-037C33C8A55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BDB0436-1B7B-41D3-BBBA-037C33C8A55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BDB0436-1B7B-41D3-BBBA-037C33C8A55F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B70170B-C6E5-44EF-AA2A-A901C58A9459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B70170B-C6E5-44EF-AA2A-A901C58A9459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B70170B-C6E5-44EF-AA2A-A901C58A9459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B70170B-C6E5-44EF-AA2A-A901C58A9459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
