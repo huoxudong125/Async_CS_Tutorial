@@ -1,5 +1,7 @@
 # Async_CS_Tutorial
 
+[![Build status](https://ci.appveyor.com/api/projects/status/c1coswhs93m004q0?svg=true)](https://ci.appveyor.com/project/huoxudong125/async-cs-tutorial)
+
 ##Intruduce
 There is a turorial for [Asynchronous Programming with Async and Await](https://msdn.microsoft.com/en-us/library/hh191443.aspx).
 And I will add some more advance scenarios demos .such as:
